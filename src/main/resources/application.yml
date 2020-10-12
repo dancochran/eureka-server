@@ -1,0 +1,13 @@
+#debug: true
+logging:
+  level:
+    org:
+    springframework: error
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
